@@ -1,0 +1,684 @@
+#logo{
+
+width: 268px;
+height: 33px;
+margin-top: 10px;
+
+
+}
+nav{
+display: flex;
+justify-content:space-around ;
+
+
+}
+.mainmenu{
+
+list-style: none;
+display: flex;
+}
+.mainmenuitems{
+margin-left: 20px;
+font-family: Roboto, Arial, sans-serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+color: #ABABAB;
+
+}
+li{
+list-style: none;
+
+
+}
+.submenu{
+
+    display: none;
+    position: absolute;
+    color: #ABABAB;
+    box-shadow: 0 5px 10px 0 #ABABAB;
+    width: 190px;
+    margin-left: -100px;
+  
+    
+}
+#departements:hover .submenu{
+
+
+    display: block;
+}
+#about{
+
+
+    color:  rgb(0, 179, 155);
+}
+#logo:hover{
+    cursor: pointer;
+}
+li:hover{
+cursor: pointer;
+color:rgb(0, 179, 155);
+
+
+}
+
+.submenuitems{
+
+font-family:  Roboto, Arial, sans-serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 18px;
+height: 42px;
+width: 220px;
+margin-left: -35px;
+
+
+
+}
+#marketing{
+
+    margin-top: 10px;
+}
+.submenuitems:hover{
+    background-color:#F6F8F8;
+}
+.titletext{
+
+    font-family:  "Work Sans", Arial, sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 44.2px;
+    color:  rgb(0, 179, 155);
+}
+.title{
+    text-align: center;
+    margin-top: 40px;
+}
+.paragraphe{
+    display: flex;
+    justify-content: center;
+    
+}
+.paragraphe p{
+    width: 477.5px;
+    height: 112px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(116, 116, 116);
+    margin-left: 20px;
+    margin-top: 35px;
+
+}
+.pdc{
+    display: flex;
+   justify-content: center;
+   margin-top: 60px;
+   
+
+    
+}
+.patients , .doctors , .Forclinics{
+    
+    padding:32px 32px 0 32px;
+    
+}
+.patients{
+    background-color:#1AD1B9;
+    height: 345px;
+    width: 311.625px;
+    margin-left: 200px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.doctors{
+background-color: #3D83DF;
+height: 345px;
+width: 311.625px;
+border-radius: 10px;
+
+}
+.Forclinics{
+    background: #1B2734;
+    height: 345px;
+    width: 311.625px;
+    margin-left: 20px;
+    margin-right: 200px;
+    border-radius: 10px;
+}
+.titre1{
+
+    font-family:"Work Sans", Arial, sans-serif ;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33.8px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+
+}
+.titre2{
+
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28.8px;
+    color: rgb(255, 255, 255);
+}
+
+
+#logo1, #logo2 , #logo3{
+    font-size: 16px;
+  color:#FFFFFF;
+}
+
+#select2{
+    background-color:#3D83DF;
+    margin-top: 90px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 24.96px;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    border: 0;
+    
+}
+option{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24.96px;
+color:rgb(61, 61, 61);
+background-color: white;
+}
+#select1{
+    background-color:#1AD1B9;
+    margin-top: 90px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 24.96px;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    border: 0;
+    
+}
+#select3{
+    background-color: #1B2734;
+    margin-top: 20px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 24.96px;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    border: 0;
+    
+}
+#select4{
+    background-color: #1B2734;
+    margin-top: 20px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 24.96px;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    border: 0;
+    
+}
+.para2{
+font-family: "Work Sans", Arial, sans-serif;
+font-size: 26px;
+font-weight: 300;
+line-height: 33.8px;
+color: rgb(0, 179, 155);
+
+
+
+
+}
+.bloklog{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.blklog1{
+    display: flex;
+}
+.blklog2{
+    display: flex;
+   margin-top: -20px;
+    
+}
+.bloklog h1{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 33.8px;
+    color: rgb(0, 179, 155);
+    
+}
+.bloklog h2{
+    color:  #ABABAB;
+    margin: 20px;
+    
+}
+#logon1{
+    height: 16px;
+    width: 126.109px;
+}
+#logon3{
+    height: 34px;
+    width: 72.4688px;
+}
+#logon4{
+    height: 34px;
+    width: 116.25px;
+}
+#sublog1 ,#sublog2 ,#sublog3 ,#sublog4 ,#sublog5{ 
+    height: 20px;
+    width: 20px;
+    
+    filter: sepia(90%);
+        -webkit-filter: sepia(90%);
+}
+.kk:hover{
+    background-color: rgb(0, 179, 155);
+    cursor: pointer;
+}
+.page2{
+    background-color: #D6F5F6;
+    height: 600px;
+    
+}
+#logobox1{
+    image-rendering: auto;
+    width: 450px;
+    height: 400px;
+    margin-top: 55px;
+    margin-left: -150px;
+}
+.box1 h1{
+    font-family:"Work Sans", Arial, sans-serif;
+font-size: 34px;
+font-weight: 300;
+line-height: 44.2px;
+color: rgb(0, 179, 155);
+
+}
+.box1 h2{
+    font-family:"Work Sans", Arial, sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+color: rgb(116, 116, 116);
+
+}
+.page2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.activiter2{
+    display: block;
+    margin-left: -50px;
+    margin-right: 150px;
+}
+.activiter1{
+    margin-left: -10px;
+
+}
+.box2{
+
+height: 220px;
+width: 210px;
+padding: 15px 15px 15px 15px;
+background-color: #FFFFFF;
+margin-top: 50px;
+border-radius: 5px;
+text-align: center;
+
+
+}
+.box2 h1{
+    font-family:  "Work Sans", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 31.2px;
+    color: rgb(0, 179, 155);
+    text-align: center;
+    
+}
+.box2 h2{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.9px;
+    color:rgb(116, 116, 116);
+    text-align: center;
+    
+}
+.logobox2{
+
+margin-top: 15px;
+}
+.logobox3{
+ 
+    margin-top: 35px;
+}
+.logobox4{
+  
+    margin-top: 35px;
+}
+
+.box1{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.box3{
+
+    height: 220px;
+    width: 210px;
+    padding: 15px 15px 15px 15px;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+    
+    
+    }
+    .box3 h1{
+        font-family:  "Work Sans", Arial, sans-serif;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 31.2px;
+        color: rgb(0, 179, 155);
+        text-align: center;
+        margin-top: 50px;
+        
+    }
+    .box3 h2{
+        font-family: Roboto, Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 16.9px;
+        color:rgb(116, 116, 116);
+        text-align: center;
+        
+    }
+    .box4{
+
+        height: 220px;
+        width: 210px;
+        padding: 15px 15px 15px 15px;
+        background-color: #FFFFFF;
+        margin-top: 20px;
+        border-radius: 5px;
+        text-align: center;
+        
+       
+       
+        
+        
+        }
+        .box4 h1{
+            font-family:  "Work Sans", Arial, sans-serif;
+            font-size: 24px;
+            font-weight: 300;
+            line-height: 31.2px;
+            color: rgb(0, 179, 155);
+            text-align: center;
+            margin-top: 40px;
+            
+        }
+        .box4 h2{
+            font-family: Roboto, Arial, sans-serif;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 16.9px;
+            color:rgb(116, 116, 116);
+            text-align: center;
+            
+        }
+        .box5{
+            height: 220px;
+            width: 210px;
+            padding: 15px 15px 15px 15px;
+            background-color: #FFFFFF;
+            margin-top: 20px;
+            border-radius: 5px;
+            text-align: center;
+          
+
+        }
+        .box5 h1{
+            font-family:  "Work Sans", Arial, sans-serif;
+            font-size: 24px;
+            font-weight: 300;
+            line-height: 31.2px;
+            color: rgb(0, 179, 155);
+            text-align: center;
+            margin-top: 40px;
+            
+        }
+        .box5 h2{
+            font-family: Roboto, Arial, sans-serif;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 16.9px;
+            color:rgb(116, 116, 116);
+            text-align: center;
+            
+        }
+        .page3 h1{
+
+            font-family:  "Work Sans", Arial, sans-serif;
+            font-size: 30px;
+            font-weight: 300;
+            line-height: 39px;
+            color: rgb(0, 179, 155);
+            text-align: center;
+            margin-top: 80px;
+        }
+        .page3 h2{
+
+            font-family: Roboto, Arial, sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            color:  rgb(116, 116, 116);
+            text-align: center;
+            margin-top: 10px;
+        }
+        .page4{
+            display: flex;
+            justify-content: center;
+            margin-top: 70px;
+            cursor: pointer;
+            
+        }
+        .page4image1{
+            height: 350px;
+            width: 311px;
+            padding: 10px 10px 10px 10px;
+            
+           
+        }
+        .page4image2{
+            height: 350px;
+            width: 311px;
+            
+            padding: 10px 10px 10px 10px;
+           
+        }
+        .page4image3{
+            height: 350px;
+            width: 311px;
+            
+            padding: 10px 10px 10px 10px;
+
+           
+        }
+
+        button {
+            background-color:  #3D83Df;;
+            border: none;
+            color: white;
+            padding: 10px 15px 10px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 10px;
+            font-weight: 700;
+           height: 30px;
+           width: 110px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-left: 100px;
+          }
+          .page4image1 h2{
+              text-align: left;
+              color:#747474;
+              font-family: Roboto, Arial, sans-serif;
+              font-size: 18px;
+             font-weight: 400;
+             line-height: 30px;
+             color: rgb(116, 116, 116);
+
+
+          }
+          .page4image2 h2{
+            text-align: left;
+            color:#747474;
+            font-family: Roboto, Arial, sans-serif;
+              font-size: 18px;
+             font-weight: 400;
+             line-height: 30px;
+             color: rgb(116, 116, 116);
+            
+           
+        }
+        .page4image3 h2{
+            text-align: left;
+            color:#747474;
+            font-family: Roboto, Arial, sans-serif;
+              font-size: 18px;
+             font-weight: 400;
+             line-height: 30px;
+             color: rgb(116, 116, 116);
+           
+        }
+        .imgpage4{
+            border-radius: 5px 5px 0 0;
+        }
+        .page5{
+            display: flex;
+            justify-content: center;
+            margin-top: 0px;
+            cursor: pointer;
+            
+        }
+        .page5image1 h2{
+            text-align: left;
+            color:#747474;
+            font-family: Roboto, Arial, sans-serif;
+            font-size: 18px;
+           font-weight: 400;
+           line-height: 30px;
+           color: rgb(116, 116, 116);
+
+
+        }
+        .page5image2 h2{
+          text-align: left;
+          color:#747474;
+          font-family: Roboto, Arial, sans-serif;
+            font-size: 18px;
+           font-weight: 400;
+           line-height: 30px;
+           color: rgb(116, 116, 116);
+          
+         
+      }
+      .page5image3 h2{
+          text-align: left;
+          color:#747474;
+          font-family: Roboto, Arial, sans-serif;
+            font-size: 18px;
+           font-weight: 400;
+           line-height: 30px;
+           color: rgb(116, 116, 116);
+         
+      }
+      .page5image1 ,.page5image2,.page5image3{
+        height: 350px;
+        width: 311px;
+        padding: 10px 10px 10px 10px;
+       
+    }
+    .page6{
+        display: flex;
+       
+     justify-content: left;
+     margin-left: 170px;
+     cursor: pointer;
+        
+    }
+    .paragraphep6 p{
+
+       font-family:  "Work Sans", Arial, sans-serif;
+       font-size: 30px;
+       font-weight: 300;
+       line-height: 39px;  
+       color:  rgb(51, 51, 51);
+       text-align: center;
+       margin-top: 70px;
+    }
+    .BT{
+        background-color: #1662C6;
+        height: 40px;
+        width: 225.400px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-family: Roboto, Arial, sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 12px;
+        padding: 14px 18px 14px 18px;
+        letter-spacing: 0.28px;
+    }
+    .bpage6{
+        text-align: center;
+        margin-left: -100px;
+        margin-top: -10px;
+    }
+    .footer{
+        border: 1px solid #EEF2F2;
+        margin-top: 100px;
+        width: 100%;
+    }
+    .para1footer{
+        font-family: Roboto, Arial, sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15.6px;
+        color: rgb(171, 171, 171);
+        text-align: center;
+        margin-top: 40px;
+    }
+    .para1footer a  {
+        color: rgb(61, 131, 223);
+    }
+    .para2footer{
+        font-family: Roboto, Arial, sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        color: rgb(171, 171, 171);
+        text-align: center;
+        margin-top: 20px;
+       
+    }
